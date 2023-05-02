@@ -21,7 +21,7 @@ class Solution(object):
         
         return total
     
-    #  wordlen() takes a list of strings and prints out the length of each strins line by line
+    # wordlen() takes a list of strings and prints out the length of each strins line by line
     # if any of the string in the list is empty it doesn't print
     
     def wordLen(self, word_list):
@@ -32,7 +32,7 @@ class Solution(object):
             for x in word_list:
                 if len(x) != 0:
                     print(len(x))
-        
+      
 
 test = Solution()
 # print(test.movieTickets(79,4))
